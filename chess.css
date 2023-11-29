@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+.first::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.second::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+body {
+background-color: gray;
+}
+
+.first{
+    background-color: white;
+}
+.second{
+    background-color: black;
+}
